@@ -1,0 +1,275 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page font and background */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #495E57;
+}
+
+header img {
+    width: 200px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #495E57;
+}
+
+/* Main content */
+main {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 2px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Articles */
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+    color: #495E57;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #495E57;
+}
+
+/* Form section */
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Fieldset */
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Legend */
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #495E57;
+}
+
+/* Labels */
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Focus effect */
+input:focus {
+    outline: none;
+    border-color: #495E57;
+}
+
+/* Submit button */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #495E57;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: #e3bb10;
+    color: black;
+}
+
+/* Booking page layout */
+main.booking {
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+/* Booking card */
+.booking section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* Fieldsets */
+.booking-form fieldset {
+    border: none;
+    margin-bottom: 25px;
+}
+
+/* Fieldset titles */
+.booking-form legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #495E57;
+    margin-bottom: 10px;
+}
+
+/* Labels */
+.booking-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+/* Inputs */
+.booking-form input[type="date"],
+.booking-form input[list],
+.booking-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Range slider */
+.booking-form input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Output number */
+.booking-form output {
+    font-weight: bold;
+    color: #495E57;
+}
+
+/* Submit button */
+.booking-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #495E57;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.booking-form button:hover {
+    background-color: #F4CE14;
+}
+
+.booking-form input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    background: transparent;
+    margin-top: 10px;
+}
+
+/* Track */
+.booking-form input[type="range"]::-webkit-slider-runnable-track {
+    height: 8px;
+    background: #495E57;
+    border-radius: 5px;
+}
+
+.booking-form input[type="range"]::-moz-range-track {
+    height: 8px;
+    background: #495E57;
+    border-radius: 5px;
+}
+
+/* Thumb */
+.booking-form input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #F4CE14;
+    border-radius: 50%;
+    border: 2px solid #495E57;
+    margin-top: -6px;
+    cursor: pointer;
+}
+
+.booking-form input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #F4CE14;
+    border-radius: 50%;
+    border: 2px solid #495E57;
+    cursor: pointer;
+}

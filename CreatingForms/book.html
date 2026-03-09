@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title>
+
+    <meta property="og:title" content="Our Menu">
+    <meta property="og:type" content="Website">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://littlelemon">
+    <meta property="og:description"
+        content="Little Lemon is a family-owned restaurant serving the best Mediterranean cuisine in town!">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Little Lemon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" alt="Little Lemon Logo">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="book.html">Book a Table</a></li>
+        </ul>
+    </nav>
+
+    <main class="booking">
+        <h1>Book a Table</h1>
+
+        <section>
+            <form action="#" method="post" class="booking-form">
+                <fieldset id="size">
+                    <legend>Table Size</legend>
+
+                    <label for="size_2">
+                        <input type="radio" value="2" name="size" id="size_2">
+                        2-person table
+                    </label>
+
+                    <label for="size_4">
+                        <input type="radio" value="4" name="size" id="size_4" checked>
+                        4-person table
+                    </label>
+
+                    <label for="size_6">
+                        <input type="radio" value="6" name="size" id="size_6">
+                        6-person table
+                    </label>
+
+                    <label for="size_12">
+                        <input type="radio" value="12" name="size" id="size_12">
+                        12-person table
+                    </label>
+                </fieldset>
+
+                <fieldset id="location">
+                    <legend>Location</legend>
+
+                    <label for="location_indoor">
+                        <input type="radio" value="indoor" name="location" id="location_indoor" checked>
+                        Indoor
+                    </label>
+
+                    <label for="location_outdoor">
+                        <input type="radio" value="outdoor" name="location" id="location_outdoor">
+                        Outdoor
+                    </label>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Little Lemon. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
